@@ -8,7 +8,7 @@ interface PrimaryButtonProps {
 const PrimaryButton = ({ children, className }: PrimaryButtonProps) => {
   return (
     <button
-      className={`hover:bg-indigo-600  hover:border-transparent border-2 border-indigo-500 text-indigo-500 cursor-pointer hover:text-white py-2 px-4 ease-in-out duration-150 ${className}`}
+      className={`hover:bg-white  hover:border-transparent border-2 rounded-lg border-white text-white cursor-pointer hover:text-black py-2 px-4 ease-in-out duration-150 ${className}`}
     >
       {children}
     </button>

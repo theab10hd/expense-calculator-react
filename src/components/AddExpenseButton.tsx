@@ -51,7 +51,7 @@ const AddExpenseModal = () => {
   return (
     <div className="fixed h-full w-full z-30 flex items-center justify-center bg-black/50 backdrop-blur-xs ">
       <div
-        className={`bg-white/30 outline outline-white/30 rounded-xl w-[90%] max-w-md p-8 relative backdrop-blur-sm text-white`}
+        className={`glassmorphism w-[90%] max-w-md p-8 relative  text-white`}
       >
         <button
           onClick={() => dispatch(closeAddExpenseModal())}
@@ -180,7 +180,7 @@ const AddExpenseButton = () => {
       {isModalOpen && <AddExpenseModal />}
       <button
         title="Add New Expense"
-        className="bg-white/50 backdrop-blur-lg outline  outline-white/20 hover:rotate-180 flex items-center justify-center text-white p-4 w-14 h-14 cursor-pointer rounded-full hover:bg-white hover:text-black ease-in-out duration-300 transition-all fixed bottom-10 right-10 z-20"
+        className="bg-gray-500 hover:rotate-180 flex items-center justify-center text-white p-4 w-14 h-14 cursor-pointer rounded-full hover:bg-white hover:text-black ease-in-out duration-300 transition-all fixed bottom-10 right-10 z-20"
         onClick={() => dispatch(openAddExpenseModal())}
       >
         <i className="fas fa-plus text-2xl"></i>
