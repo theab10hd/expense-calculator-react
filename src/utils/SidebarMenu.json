@@ -1,0 +1,40 @@
+{
+  "menuItems": [
+    {
+      "id": 0,
+      "label": "Dashboard",
+      "icon": "fa-solid fa-chart-line",
+      "link": "/dashboard"
+    },
+    {
+      "id": 1,
+      "label": "Expenses",
+      "icon": "fa-solid fa-arrow-up",
+      "link": "/expenses"
+    },
+    {
+      "id": 2,
+      "label": "Income",
+      "icon": "fa-solid fa-arrow-down",
+      "link": "/income"
+    },
+    {
+      "id": 3,
+      "label": "Categories",
+      "icon": "fa-solid fa-layer-group",
+      "link": "/categories"
+    },
+    {
+      "id": 4,
+      "label": "Reports",
+      "icon": "fa-solid fa-file-invoice-dollar",
+      "link": "/reports"
+    },
+    {
+      "id": 5,
+      "label": "Settings",
+      "icon": "fa-solid fa-gear",
+      "link": "/settings"
+    }
+  ]
+}
